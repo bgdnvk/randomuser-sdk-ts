@@ -4,6 +4,8 @@ export default class RandomUserSDK {
 
     //@param {number} n - Number of users you want to return
     //currently some users have an ID of null
+    //if it's a success you get JSON data back if not it throws an error
+    //the error also shows on console before the throw
     async getRandomUsers(n: number): Promise<ApiUserResponse> {
 
         const numberUsers = n.toString()

@@ -1,6 +1,6 @@
 {
   "name": "randomuser-sdk-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "randomuser.me sdk in typescript with types",
   "main": "main.ts",
   "type": "module",
